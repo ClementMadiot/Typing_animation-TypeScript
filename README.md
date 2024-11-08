@@ -1,6 +1,6 @@
+  ![](https://media.giphy.com/media/pDbvMHSK1RiL0OrXxQ/giphy.gif)
 <div align="center">
-  ![Animation](https://media.giphy.com/media/pDbvMHSK1RiL0OrXxQ/giphy.gif)
- <div>
+ <div align="center">
     <img src="https://img.shields.io/badge/-TypeScript-black?style=for-the-badge&logoColor=white&logo=typescript&color=3178C6" alt="typescript" />
     <img src="https://img.shields.io/badge/-Vite-black?style=for-the-badge&logoColor=white&logo=vite&color=646CFF" alt="vite" />
   </div>
