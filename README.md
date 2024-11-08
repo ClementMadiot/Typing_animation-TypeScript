@@ -1,5 +1,5 @@
 <div align="center">
-<img src="https://media.giphy.com/media/pDbvMHSK1RiL0OrXxQ/giphy.gif" alt="Animation Text Reveal">
+  <div align="center"><img src="https://media.giphy.com/media/pDbvMHSK1RiL0OrXxQ/giphy.gif" alt="Animation Text Reveal"></div>
  <div align="center">
     <img src="https://img.shields.io/badge/-TypeScript-black?style=for-the-badge&logoColor=white&logo=typescript&color=3178C6" alt="typescript" />
     <img src="https://img.shields.io/badge/-Vite-black?style=for-the-badge&logoColor=white&logo=vite&color=646CFF" alt="vite" />
@@ -23,7 +23,7 @@
 ## <br /> <a name="tech-stack">🛠 Technology Used</a>
 
 - [framer-motion](https://www.npmjs.com/package/framer-motion)
-Framer Motion is an open source, production-ready library that’s designed for all creative developers.
+  Framer Motion is an open source, production-ready library that’s designed for all creative developers.
 
 - 📝 [Features](#features)
 
@@ -37,12 +37,12 @@ Follow these steps to set up the project locally on your machine.
 
 **Prerequisites**
 
->[!NOTE]
+> [!NOTE]
 > Make sure you have the following installed on your machine:
 
 - [Git](https://git-scm.com/)
 - [Node.js](https://nodejs.org/en)
-- [npm](https://www.npmjs.com/) *(Node Package Manager)*
+- [npm](https://www.npmjs.com/) _(Node Package Manager)_
 
 **Cloning the Repository**
 
@@ -58,7 +58,7 @@ cd {git project..}
 _npm_
 
 ```
-npm install 
+npm install
 ```
 
 _yarn_
