@@ -1,5 +1,5 @@
 import regexString from "./regexString";
-import { motion, Variant } from "framer-motion";
+import { motion } from "framer-motion";
 
 // text
 const heading = "Elegent Text Reveal";
