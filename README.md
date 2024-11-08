@@ -1,51 +1,70 @@
-# React + TypeScript + Vite
+<div align="center">
+<img src="https://media.giphy.com/media/pDbvMHSK1RiL0OrXxQ/giphy.gif" alt="Animation Text Reveal">
+ <div align="center">
+    <img src="https://img.shields.io/badge/-TypeScript-black?style=for-the-badge&logoColor=white&logo=typescript&color=3178C6" alt="typescript" />
+    <img src="https://img.shields.io/badge/-Vite-black?style=for-the-badge&logoColor=white&logo=vite&color=646CFF" alt="vite" />
+  </div>
+  <h3 align="center">Elegant Text Reveal</h3>
+</div>
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## <br /> 📋 <a name="table">Summary</a>
 
-Currently, two official plugins are available:
+- ✨ [Introduction](#introduction)
+- 🛠 [Technology Used](#tech-stack)
+- 📝 [Features](#features)
+- 🚀 [Launch App](#launch-app)
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## <br /> <a name="introduction">✨ Introduction</a>
 
-## Expanding the ESLint configuration
+**[ENG]** This project showcases an elegant Text Reveal Effect built using TypeScript and Framer Motion. It utilizes the power of Framer Motion's staggerChildren prop to create a visually appealing animation.
 
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
+**[FR]** Ce projet présente un effet de révélation de texte élégant construit à l'aide de TypeScript et de Framer Motion. Il utilise la puissance de la propriété staggerChildren de Framer Motion pour créer une animation visuellement attrayante.
 
-- Configure the top-level `parserOptions` property like this:
+## <br /> <a name="tech-stack">🛠 Technology Used</a>
 
-```js
-export default tseslint.config({
-  languageOptions: {
-    // other options...
-    parserOptions: {
-      project: ['./tsconfig.node.json', './tsconfig.app.json'],
-      tsconfigRootDir: import.meta.dirname,
-    },
-  },
-})
+- [framer-motion](https://www.npmjs.com/package/framer-motion)
+Framer Motion is an open source, production-ready library that’s designed for all creative developers.
+
+- 📝 [Features](#features)
+
+## <a name="features">📝 Features</a>
+
+👉 **Staggered Text Reveal** : Employs Framer Motion's staggerChildren prop to animate the reveal of text characters with a stylish delay.
+
+## <br /> <a name="launch-app">🚀 Launch App</a>
+
+Follow these steps to set up the project locally on your machine.
+
+**Prerequisites**
+
+>[!NOTE]
+> Make sure you have the following installed on your machine:
+
+- [Git](https://git-scm.com/)
+- [Node.js](https://nodejs.org/en)
+- [npm](https://www.npmjs.com/) *(Node Package Manager)*
+
+**Cloning the Repository**
+
+```bash
+git clone {git remote URL}
+cd {git project..}
 ```
 
-- Replace `tseslint.configs.recommended` to `tseslint.configs.recommendedTypeChecked` or `tseslint.configs.strictTypeChecked`
-- Optionally add `...tseslint.configs.stylisticTypeChecked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and update the config:
+**Installation**
 
-```js
-// eslint.config.js
-import react from 'eslint-plugin-react'
+> After cloning the repository, run the command `npm i` or `yarn i` to install the project's dependencies.
 
-export default tseslint.config({
-  // Set the react version
-  settings: { react: { version: '18.3' } },
-  plugins: {
-    // Add the react plugin
-    react,
-  },
-  rules: {
-    // other rules...
-    // Enable its recommended rules
-    ...react.configs.recommended.rules,
-    ...react.configs['jsx-runtime'].rules,
-  },
-})
+_npm_
+
 ```
-# Typing_animation-TypeScript
+npm install 
+```
+
+_yarn_
+
+```
+yarn install
+```
+
+> Once the dependencies are installed, start the project with the command `npm run dev`.
